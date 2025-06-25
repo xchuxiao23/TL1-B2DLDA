@@ -23,4 +23,4 @@ This is the official implementation of our paper "A Secure and Efficient Image S
 
 ## Acknowledgement
 
-We gratefully acknowledge the open-source implementation of [2DLDA-T$\ell_1$](https://github.com/YangSkywalker/2DLDA-TL1), which provided foundational code structures for our T$\ell_1$-B2DLDA. 
+We gratefully acknowledge the open-source implementation of [2DLDA-TL1](https://github.com/YangSkywalker/2DLDA-TL1), which provided foundational code structures for our TL1-B2DLDA. 
