@@ -2,7 +2,10 @@
 
 This is the official implementation of our paper "A Secure and Efficient Image Sharing Method Based on Bilateral Compressive Sensing with Multilevel Privacy Preserving Function". This research project is developed based on MATLAB, created by Chuxiao Xu.
 
-## Repository Structure
+## Download Resources
+You can download the datasets and trained matirces through the following link：https://pan.baidu.com/s/1Vc_kMFSIMDAu9T3XNZVFNA?pwd=5ejp
+
+## Structure
 
 #### `/data` Directory
 
