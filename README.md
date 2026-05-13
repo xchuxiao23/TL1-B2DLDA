@@ -6,7 +6,7 @@ This repository contains the official MATLAB implementation of the paper:
 The project was developed based on MATLAB by Chuxiao Xu.
 
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 .
@@ -38,7 +38,7 @@ The project was developed based on MATLAB by Chuxiao Xu.
 └── Transmission_Pipline.m      # Entry point for the full sampling, encryption, and reconstruction pipeline
 ```
 
-## Usage
+## 🚀 Usage
 
 ### Training for Level I Privacy
 
@@ -53,7 +53,7 @@ The project was developed based on MATLAB by Chuxiao Xu.
 3. Run the script to perform CS sampling, masking, restoration, decryption, and image reconstruction.
 4. The script displays the original and reconstructed images and reports the PSNR.
 
-## Requirements
+## ⚙️ Requirements
 
 - MATLAB R2020a or later is recommended.
 - Parallel Computing Toolbox is required for GPU data structures.
@@ -61,20 +61,20 @@ The project was developed based on MATLAB by Chuxiao Xu.
 
 The core `TL1-B2DLDA` algorithm uses `gpuArray` for acceleration. Running the algorithm on CPU requires removing or replacing the GPU-dependent code paths.
 
-## Dataset Availability
+## 📢 Dataset Availability
 
 This repository includes preprocessed ORL and Yale datasets in `.mat` format for quick testing.
 
 Due to GitHub file size limitations, the Caltech-101 and FEI Face Database used in the paper's large-scale experiments are not included in this repository. Researchers interested in reproducing the generalization experiments on these larger datasets can contact the author at <xchuxiao23@bupt.edu.cn>.
 
-## Acknowledgement
+## 🙏 Acknowledgement
 
 We gratefully acknowledge the open-source implementation of [2DLDA-TL1](https://github.com/YangSkywalker/2DLDA-TL1), which provided foundational code structures for TL1-B2DLDA.
 
 We also thank [2DCS-ETC](https://github.com/zhangboswjtu/2DCS-ETC) for providing the reference implementation for the 2D compressed sensing reconstruction code.
 
 
-## Citation
+## 📖 Citation
 
 If this repository is useful for your research, please cite our paper:
 
